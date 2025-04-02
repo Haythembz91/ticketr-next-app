@@ -1,9 +1,11 @@
+import EventList from "@/components/EventList";
 
 
-
- const Home = ()=>{
+const Home = ()=>{
   return(
-      <div>Ania is the best</div>
+      <div>
+       <EventList></EventList>
+      </div>
   )
  }
 
